@@ -1,7 +1,7 @@
 class Queue:
     def __init__(self):
         self.queue = []
-    
+
     # Add element
     def enqueue(self, item):
         self.queue.append(item)
@@ -16,10 +16,11 @@ class Queue:
     # Display queue
     def display(self):
         print(self.queue)
-    
+
     # show size
     def size(self):
         print(len(self.queue))
+
 
 q = Queue()
 q.enqueue(1)
